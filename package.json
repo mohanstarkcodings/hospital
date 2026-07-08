@@ -1,0 +1,43 @@
+{
+  "name": "job board platform",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Mohanraj",
+  "license": "ISC",
+  "description": "Backend API for job board platform built with Node.js, Express.js, and MySQL.",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "connect-timeout": "^1.9.1",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "mysql2": "^3.16.0",
+    "node-cron": "^4.5.0",
+    "nodemailer": "^7.0.13",
+    "otp-generator": "^4.0.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "response-time": "^2.3.4",
+    "serve-favicon": "^2.5.1",
+    "serve-index": "^1.9.1",
+    "serve-static": "^2.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.2.2"
+  }
+}
